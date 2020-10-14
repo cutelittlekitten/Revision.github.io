@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* body {
+  font-family: 'Quicksand', sans-serif!important;
+  letter-spacing: 2px;
+}
+
+.navbar {
+  background-color: #2F2E2E;
+}
+
+.home-intro {
+  padding-top: 360px;
+  background-image: url("../images/achtergrond_leiden.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96vh;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.grid-container {
+  padding-top: 105px;
+  padding-bottom: 100px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  min-height: 500px;
+  grid-template-areas: ". content-1 content-2 .";
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-1 {
+  grid-area: content-1;
+  padding-top: 100px;
+}
+
+.content-2 {
+  grid-area: content-2;
+  padding-top: 104px!important;
+}
+
+.card {
+  border: none!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(360, 100%, 100%, 0)!important;
+}
+
+.myButton {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #30CDC7;
+  border: 3px solid #30CDC7;
+  padding: 13px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+.myButton:hover {
+  background-color: white;
+  border: 3px solid #30CDC7;
+  padding: 13px;
+  text-decoration: none;
+  color: #30CDC7;
+}
+
+.grid-container-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". content-3 content-4 .";
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: content-3;
+}
+
+.content-4 {
+  padding-top: 100px;
+  grid-area: content-4;
+}
+
+.grid-container-3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  min-height: 500px;
+  text-align: center;
+  grid-template-areas: ". content-5 content-6 content-7 ." ". content-8 content-9 content-10 .";
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-5 {
+  grid-area: content-5;
+}
+
+.content-6 {
+  grid-area: content-6;
+}
+
+.content-7 {
+  grid-area: content-7;
+}
+
+.content-8 {
+  grid-area: content-8;
+}
+
+.content-9 {
+  grid-area: content-9;
+}
+
+.content-10 {
+  grid-area: content-10;
+}
+
+.grid-container-4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". content-11 .";
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-11 {
+  grid-area: content-11;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container-5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas: ". content-12 content-13 .";
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-12 {
+  grid-area: content-12;
+}
+
+.arrow-dots {
+  list-style-type: '> '!important;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.content-13 {
+  grid-area: content-13;
+}
+
+li {
+  padding-right: 32px!important;
+}
+
+.grid-container-6 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas: ". content-14 content-15 .";
+  background-image: url("https://www.relocation4u.de/wp-content/uploads/2018/02/contact-background@2x-2.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.content-14 {
+  grid-area: content-14;
+  background: hsla(360, 100%, 100%, 0.42);
+}
+
+.content-15 {
+  grid-area: content-15;
+  background: hsla(360, 100%, 100%, 0.42);
+}
+
+.form-button {
+  border: 3px solid #30CDC7;
+  background-color: #30CDC7;
+  padding: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+.form-button:hover {}
+
+.form-text-field-height {
+  height: 100px!important;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #33CEC8;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background-image: url("https://flevix.com/wp-content/uploads/2019/12/Live-Background-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#footer a {
+  color: black;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.quick-links li a,
+#footer ul.social li a {
+  color: black;
+}
+
+#footer ul.social li a:hover {
+  color: black;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+@media (max-width:767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+}

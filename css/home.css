@@ -56,8 +56,12 @@ html {
   background-color: hsla(360, 100%, 100%, 0)!important;
 }
 
+.card-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .myButton {
-  display: block;
   width: 100%;
   border: none;
   background-color: #30CDC7;
@@ -119,6 +123,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .content-5 {
@@ -216,7 +222,8 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .content-14 {

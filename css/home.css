@@ -134,6 +134,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-items: center;
 }
 
 .content-5 {

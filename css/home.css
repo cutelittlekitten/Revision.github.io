@@ -263,7 +263,6 @@ li {
 .form-text-field-height {
   height: 100px!important;
 }
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 section {
   padding: 60px 0;
@@ -349,5 +348,85 @@ section .section-title {
     border-left: transparent;
     padding-bottom: 0;
     margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 760px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    min-height: 500px;
+    grid-template-areas: "content-1" "content-2";
+    justify-self: center;
+  }
+
+  .content-1 {
+    justify-self: center;
+  }
+
+  .content-2 {
+    justify-self: center;
+    height: 300px;
+  }
+
+  .content-2 img {
+    width: 400px;
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    min-height: 500px;
+    grid-template-areas: "content-4" "content-3";
+    justify-self: center;
+  }
+
+  .content-3 {
+    justify-self: center;
+    height: 400px;
+  }
+
+  .content-4 {
+    justify-self: center;
+  }
+
+  .content-3 img {
+    width: 400px;
+  }
+
+  .grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "content-5" "content-6" "content-7" "content-8" "content-9" "content-10";
+    justify-self: center;
+  }
+
+  .grid-container-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "content-11";
+  }
+
+  .grid-container-5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0 0;
+    grid-template-areas: "content-12" "content-13";
+  }
+
+  .content-12 {
+    justify-self: center;
+  }
+
+  .content-13 {
+    justify-self: center;
   }
 }
